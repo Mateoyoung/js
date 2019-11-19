@@ -174,6 +174,12 @@ function loneSum(x,y,z){
 function tester() {
     document.getElementById("output").innerHTML += sleep_in(true, false);
     document.getElementById("output").innerHTML += monkey_trouble(true, false);
-    //test third method, etc
+    document.getElementById("output").innerHTML += string_times(true, false);
+    document.getElementById("output").innerHTML += front_times(true, false);
+    document.getElementById("output").innerHTML += string_bits(true, false);
+    document.getElementById("output").innerHTML += caughtSpeeding(true, false);
+    document.getElementById("output").innerHTML += fizz_buzz(true, false);
+    document.getElementById("output").innerHTML += teaParty(true, false);
+    document.getElementById("output").innerHTML += blackjack(true, false);
+    document.getElementById("output").innerHTML += loneSum(true, false);
 }
-
