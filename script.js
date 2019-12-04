@@ -1,11 +1,25 @@
 //1
 function sleep_in(weekday,vacation) {
-    return weekday;
+    if(vacation == true){
+        return true;
+    }
+
+    if(weekday == true){
+        return false;
+    }
+
+    if(weekday == false && vacation == false){
+        return true;
+    }
 }
 
 //2//////////////////////////////////
 function monkey_trouble(param1, param2) {
-    return param1;
+    if(param1 == param2){
+        return true;
+    }else{
+        return false;
+    }
 }
 
 //3////////////////////////////////////
